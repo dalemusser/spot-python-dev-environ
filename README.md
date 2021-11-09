@@ -29,6 +29,20 @@ Note that the above shows the location for the installation of python3.7: /Libra
 
 The path to python3.7 is needed to create virtual environments based on that python.
 
+## Install Virtual Environemnt Software for Python
+
+There are multiple ways to do python virtual environments. The Boston Dynamics documentation (<https://dev.bostondynamics.com/docs/python/quickstart>) uses *virtualenv*. For the purposes of working with VSCode and doing debugging, I found that I needed to use *venv*.
+
+### How to Install virtualenv
+
+*pip* is used to install *virtualenv*. To make sure you are running the *pip* that goes with the python3.7 install, run *pip* using the python3.7. Unless you have set a path to make running *python3* use python3.7, the fully qualified path to python3.7 needs to be used.
+
+*/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7* is the path to run python3.7. The following command installs *virtualenv* for python3.7.
+
+>/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 -m pip install virtualenv
+
+### How to Install venv
+
 
 
 
