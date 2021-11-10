@@ -46,7 +46,7 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
 
 ### Difference Between virtualenv and venv
 
->venv is a package shipped with Python 3, which you can run using python3 -m venv (although for some reason some distros separate it out into a separate distro package, such as python3-venv on Ubuntu/Debian). It serves the same purpose as virtualenv, **but only has a subset of its features** (see a comparison here). virtualenv continues to be more popular than venv, especially since the former supports both Python 2 and 3.
+>venv is a package shipped with Python 3, which you can run using python3 -m venv (although for some reason some distros separate it out into a separate distro package, such as python3-venv on Ubuntu/Debian). It serves the same purpose as virtualenv, **but only has a subset of its features**... virtualenv continues to be more popular than venv, especially since the former supports both Python 2 and 3.
 
 ### How to Install virtualenv
 
