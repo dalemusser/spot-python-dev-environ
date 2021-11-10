@@ -8,6 +8,8 @@ Documentation about setting up and using a Python 3.7 development environment fo
 
 open the Finder and press Command Shift .
 
+That is used to toggle between showing and not showing hidden files.
+
 ### Displaying Intellisense Options in VSCode
 
 For displaying intellisense options in, say, creating a launch.json file use *ctrl space*.
