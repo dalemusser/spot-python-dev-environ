@@ -116,7 +116,7 @@ In the lower right the following is displayed.
 
 Below that message click the Create File button.
 
-In the launch.json file that is created (in examples), put the following and save the file.
+In the launch.json file that is created (in examples), put the following and save the file then close it. Note that you have to put your own username, password, and hostname in the contents.
 
 ```
 {
@@ -136,6 +136,20 @@ In the launch.json file that is created (in examples), put the following and sav
     ]
 }
 ```
+
+7. Run and use Visual Studio Code.
+
+Run Visual Studio Code with examples as the Current Directory. Go to an example, such as estop, and select the python program, such as estop_nogiu.py, and then go to the Run menu in Visual Studio Code and select Start Debugging.
+
+When/if Visual Studio Code asks for the Python interpreter, provide it with the following.
+
+>~Documents/spotdev/.venv/bin/python3
+
+The ~Documents/spotdev is where you have your project folder. The path must be fully-qualified.
+
+When the python program is run, it may pop up "Select a debug configuration".  If so, select "Python File Debug the currently active Python file".
+
+When the python program is running the Terminal prompt should be preceded with (.venv) to show the virtual environment is active.
 
 
 
