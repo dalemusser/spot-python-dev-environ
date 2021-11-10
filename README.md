@@ -90,6 +90,22 @@ At the commandline, you can unzip using unzip.
 
 >unzip spot_sdk_v3.0.1.zip
 
+5. Launch Visual Studio Code to Work with Examples in SDK
+
+Navigate to the examples directory in the SDK using a Terminal. Go to:
+
+>cd spot-sdk-3.0.1/python/examples
+
+Then launch Visual Studio Code using:
+
+>code .
+
+Once Visual Studio Code launches the working directory should be examples and the folders for the examples should be listed.
+
+If you open a Terminal in Visual Studio Code, the current directory should be *examples*.
+
+
+
 ### Creating launch.json in examples
 
 ```
