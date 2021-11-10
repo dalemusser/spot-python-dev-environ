@@ -28,7 +28,7 @@ Download the macOS 64-bit installer for Python 3.7.9 - Aug. 17, 2020 and install
 
 At the end of the installation it states:
 
->One more thing: to verify the identity of secure network connections, this Python needs a set of SSL root certificates. You can download and install a current curated set from the Certifi project by double-clicking on the Install Certificates icon in the Finder window.  ee the ReadMe file for more information.
+>One more thing: to verify the identity of secure network connections, this Python needs a set of SSL root certificates. You can download and install a current curated set from the Certifi project by double-clicking on the Install Certificates icon in the Finder window. See the ReadMe file for more information.
 
 In the *Applications > Python 3.7* directory double-click on *Install Certificates.command* to launch it and install the certificates.
 
