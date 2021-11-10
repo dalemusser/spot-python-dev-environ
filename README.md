@@ -1,12 +1,14 @@
 # Boston Dynamics Spot Python Development Environment
 
-Documentation about setting up and using a Python development environment for Boston Dynamics Spot development.
+Documentation about setting up and using a Python 3.7 development environment for Boston Dynamics Spot development on macOS.
 
-## Viewing Hidden (.) Files and Directories in macOS
+## Helpful Notes
+
+### Viewing Hidden (.) Files and Directories in macOS
 
 open the Finder and press Command Shift .
 
-## Displaying Intellisense Options in VSCode
+### Displaying Intellisense Options in VSCode
 
 For displaying intellisense options in, say, creating a launch.json file use *ctrl space*.
 
