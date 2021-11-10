@@ -72,7 +72,7 @@ Putting the virtual environment in *.venv* inside of the project folder enables 
 
 3. Activate the virtual environment and install the Boston Dynamics packages.
 
-Activate the virtual environment. The assumption below is that the current directory is the project folder.
+Activate the virtual environment. The assumption below is that the current directory is the project folder ("spotdev").
 
 >source ./.venv/bin/activate
 
@@ -82,7 +82,13 @@ Install the Boston Dynamics packages in the virtual environment.
 
 Note: python3 is used here and not the fullied qualified path, because we are now using the python3 in the activated virtual environment.
 
+4. Put the Spot SDK in the project folder ("spotdev").
 
+Unzip the spot_sdk_v3.0.1.zip inside the project folder ("spotdev").
+
+At the commandline, you can unzip using unzip.
+
+>unzip spot_sdk_v3.0.1.zip
 
 ### Creating launch.json in examples
 
