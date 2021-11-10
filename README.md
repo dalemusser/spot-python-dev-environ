@@ -1,4 +1,4 @@
-# spot-python-dev-environ
+# Boston Dynamics Spot Python Development Environment
 
 Documentation about setting up and using a Python development environment for Boston Dynamics Spot development.
 
@@ -6,6 +6,9 @@ Documentation about setting up and using a Python development environment for Bo
 
 open the Finder and press Command Shift .
 
+## Displaying Intellisense Options in VSCode
+
+For displaying intellisense options in, say, creating a launch.json file use *ctrl space*.
 
 ## Python Installation on macOS
 
