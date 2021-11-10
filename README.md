@@ -58,7 +58,8 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
 
 ### Creating launch.json in examples
 
->{
+```
+{
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
@@ -74,6 +75,7 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
         }
     ]
 }
+```
 
 
 
