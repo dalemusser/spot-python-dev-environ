@@ -71,7 +71,7 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["--username=dale", "--password=pleaseletmein", "74.93.9.252"]
+            "args": ["--username=<username>", "--password=<password>", "<ip-address"]
         }
     ]
 }
