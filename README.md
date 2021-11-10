@@ -70,6 +70,20 @@ Be inside the project folder ("spotdev") and execute the follwing.
 
 Putting the virtual environment in *.venv* inside of the project folder enables Visual Studio Code to automatically recognize the virtual environment. The virtual environment folder is inside the project folder rather than the project folder being inside the virtual environment folder. Once you activate a virtual environment, you can go anywhere in the file system to work while being in that virtual environment that was activated.
 
+3. Activate the virtual environment and install the Boston Dynamics packages.
+
+Activate the virtual environment. The assumption below is that the current directory is the project folder.
+
+>source ./.venv/bin/activate
+
+Install the Boston Dynamics packages in the virtual environment.
+
+>python3 -m pip install --upgrade bosdyn-client bosdyn-mission bosdyn-choreography-client
+
+Note: python3 is used here and not the fullied qualified path, because we are now using the python3 in the activated virtual environment.
+
+
+
 ### Creating launch.json in examples
 
 ```
