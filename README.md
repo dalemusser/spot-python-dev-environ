@@ -58,7 +58,17 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
 
 ### Setting Up the Project Folder and Virtual Environmentt
 
-1. Create a folder for the project.
+1. Create a folder for the project. For the purposes of this documentation "spotdev" is used. Replace "spotdev" with the folder you want to use.
+
+2. Inside the project folder ("spotdev"), create a virtual environment with the name of ".venv".
+
+To make sure that the python3.7 is used to create the virtual environment, the fully qualified path to it is specified.
+
+Be inside the project folder ("spotdev") and execute the follwing.
+
+>/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 -m virtualenv .venv
+
+Putting the virtual environment in *.venv* inside of the project folder enables Visual Studio Code to automatically recognize the virtual environment. The virtual environment folder is inside the project folder rather than the project folder being inside the virtual environment folder. Once you activate a virtual environment, you can go anywhere in the file system to work while being in that virtual environment that was activated.
 
 ### Creating launch.json in examples
 
