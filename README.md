@@ -104,9 +104,19 @@ Once Visual Studio Code launches the working directory should be examples and th
 
 If you open a Terminal in Visual Studio Code, the current directory should be *examples*.
 
+6. Create a *launch.json* file to set the parameters needed by the examples such as username, password, and hostname.
 
+In Visual Studio Code, click on the Run and Debug button on the left toolbar.
 
-### Creating launch.json in examples
+Click on the "create a launch.json file" link that is presented under Run and Debug.
+
+In the lower right the following is displayed.
+
+>Unable to open 'launch.json': Unable to read file '/Users/dalemusser/Documents/spotdev/spot-sdk-3.0.1/python/examples/.vscode/launch.json' (Error: Unable to resolve nonexistent file '/Users/dalemusser/Documents/spotdev/spot-sdk-3.0.1/python/examples/.vscode/launch.json').
+
+Below that message click the Create File button.
+
+In the launch.json file that is created (in examples), put the following and save the file.
 
 ```
 {
@@ -121,7 +131,7 @@ If you open a Terminal in Visual Studio Code, the current directory should be *e
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["--username=<username>", "--password=<password>", "<ip-address"]
+            "args": ["--username=<username>", "--password=<password>", "<hostname>"]
         }
     ]
 }
