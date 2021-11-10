@@ -40,7 +40,7 @@ Note that the above shows the location for the installation of python3.7: /Libra
 
 The path to python3.7 is needed to create virtual environments based on that python.
 
-## Install Virtual Environemnt Software for Python
+## Install Virtual Environment Software for Python
 
 There are multiple ways to do python virtual environments. The Boston Dynamics documentation (<https://dev.bostondynamics.com/docs/python/quickstart>) uses *virtualenv*. *venv* is another alternative that is usually part of the standard python library. This documentation uses *virtualenv*.
 
