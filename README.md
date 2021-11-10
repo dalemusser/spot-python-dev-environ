@@ -2,6 +2,10 @@
 
 Documentation about setting up and using a Python development environment for Boston Dynamics Spot development.
 
+## Viewing Hidden (.) Files and Directories in macOS
+
+open the Finder and press Command Shift .
+
 
 ## Python Installation on macOS
 
@@ -42,6 +46,15 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
 >/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 -m pip install virtualenv
 
 ### How to Install venv
+
+*venv* is part of the Python 3 standard library and should not require installation.
+
+### Difference Between virtualenv and venv
+
+>venv is a package shipped with Python 3, which you can run using python3 -m venv (although for some reason some distros separate it out into a separate distro package, such as python3-venv on Ubuntu/Debian). It serves the same purpose as virtualenv, **but only has a subset of its features** (see a comparison here). virtualenv continues to be more popular than venv, especially since the former supports both Python 2 and 3.
+
+
+
 
 
 
