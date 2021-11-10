@@ -38,7 +38,11 @@ The path to python3.7 is needed to create virtual environments based on that pyt
 
 ## Install Virtual Environemnt Software for Python
 
-There are multiple ways to do python virtual environments. The Boston Dynamics documentation (<https://dev.bostondynamics.com/docs/python/quickstart>) uses *virtualenv*. For the purposes of working with VSCode and doing debugging, I found that I needed to use *venv*.
+There are multiple ways to do python virtual environments. The Boston Dynamics documentation (<https://dev.bostondynamics.com/docs/python/quickstart>) uses *virtualenv*. *env* is another alternative that is usually part of the standard python library. This documentation uses *virtualenv*.
+
+### Difference Between virtualenv and venv
+
+>venv is a package shipped with Python 3, which you can run using python3 -m venv (although for some reason some distros separate it out into a separate distro package, such as python3-venv on Ubuntu/Debian). It serves the same purpose as virtualenv, **but only has a subset of its features** (see a comparison here). virtualenv continues to be more popular than venv, especially since the former supports both Python 2 and 3.
 
 ### How to Install virtualenv
 
@@ -48,13 +52,29 @@ There are multiple ways to do python virtual environments. The Boston Dynamics d
 
 >/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 -m pip install virtualenv
 
-### How to Install venv
+### Setting Up the Project Folder and Virtual Environmentt
 
-*venv* is part of the Python 3 standard library and should not require installation.
+1. Create a folder for the project.
 
-### Difference Between virtualenv and venv
+### Creating launch.json in examples
 
->venv is a package shipped with Python 3, which you can run using python3 -m venv (although for some reason some distros separate it out into a separate distro package, such as python3-venv on Ubuntu/Debian). It serves the same purpose as virtualenv, **but only has a subset of its features** (see a comparison here). virtualenv continues to be more popular than venv, especially since the former supports both Python 2 and 3.
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "spot",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--username=dale", "--password=pleaseletmein", "74.93.9.252"]
+        }
+    ]
+}
+
 
 
 
